@@ -1,16 +1,4 @@
 export default function Rate(props) {
-  function onclick() {
-    const btn = document.getElementsByClassName("submit");
-    const front = document.getElementsByClassName("cardsfront");
-
-    btn.addEventListener('click', () => {
-
-        front.classList.toggle('flex')
-        front.classList.toggle('hidden')
-
-
-  }
-
   return (
     <div className="flex justify-around ">
       <span
